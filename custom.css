@@ -12,6 +12,7 @@ h1 {
     font-weight: 700;
     font-size: 100px;
     /*//background-color: #1d91f7;*/
+    /*background-color: #1d91f7;*/
 }
 
 h2 {
@@ -19,3 +20,28 @@ h2 {
     font-size: 50px;
     /*background-color: #1d91f7;*/
 }
+@media(min-width:768px){
+      h1 {
+        font-size: 80px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+    }
+    @media(min-width:992px){
+    h1{
+      font-size: 160px;
+    }
+    h2 {
+        font-size: 60px;
+      }
+  }
+  /* large+ */
+  @media(min-width:1200px){
+    h1{
+      font-size: 220px;
+    }
+    h2 {
+        font-size: 80px;
+      }
+  }
