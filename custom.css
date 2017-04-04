@@ -20,6 +20,11 @@ h2 {
     font-size: 50px;
     /*background-color: #1d91f7;*/
 }
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
 @media(min-width:768px){
       h1 {
         font-size: 80px;
