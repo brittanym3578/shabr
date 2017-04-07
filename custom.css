@@ -7,7 +7,7 @@ body {
     background-color: #5bb2ff;
 }
 
-h1 {
+h1  {
     font-family: 'Londrina Shadow', cursive;
     font-weight: 700;
     font-size: 100px;
@@ -19,11 +19,6 @@ h2 {
     font-family: 'Londrina Shadow', cursive;
     font-size: 50px;
     /*background-color: #1d91f7;*/
-}
-h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 25px;
 }
 @media(min-width:768px){
       h1 {
