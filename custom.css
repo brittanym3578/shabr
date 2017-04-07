@@ -49,8 +49,8 @@ h2 {
     }
 }
 .jumbotron {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: lightblue;
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
