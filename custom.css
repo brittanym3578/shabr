@@ -17,6 +17,8 @@ h2 {
     /*background-color: #1d91f7;*/
 }
 
+/* small+ */
+
 @media(min-width:768px) {
     h1 {
         font-size: 80px;
@@ -26,6 +28,8 @@ h2 {
     }
 }
 
+/* medium+ */
+
 @media(min-width:992px) {
     h1 {
         font-size: 160px;
@@ -34,7 +38,6 @@ h2 {
         font-size: 60px;
     }
 }
-
 
 /* large+ */
 
