@@ -1,7 +1,4 @@
-body {
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
@@ -9,6 +6,7 @@ h1  {
     font-family: 'Londrina Shadow', cursive;
     font-weight: 700;
     font-size: 100px;
+    text-align: center;
     /*//background-color: #1d91f7;*/
     /*background-color: #1d91f7;*/
 }
@@ -16,6 +14,13 @@ h1  {
 h2 {
     font-family: 'Londrina Shadow', cursive;
     font-size: 50px;
+    /*background-color: #1d91f7;*/
+}
+h3 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 50px;
+        text-align: center;
+
     /*background-color: #1d91f7;*/
 }
 @media(min-width:768px){
@@ -53,6 +58,8 @@ h2 {
     color: lightblue;
     font-family: 'Raleway', sans-serif;
     width: 100%;
+        background-image: url(hot-air-balloon-header.jpg);
+
 }
 body {
     /*background-color: #1241FF;*/
@@ -61,4 +68,37 @@ body {
     background: rgba(179,220,237,1);
 background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
 background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+}
+
+#home p {
+    text-align: center;
+    font-family: Handlee;
+    font-size: 18px;
+}
+.navbar-brand {
+    font-family: Lobster;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.nav {
+    font-family: Bitter;
+}
+.contact {
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('skyhab.jpg'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding:10px;
+    height: 160px;
+}
+.contact p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+#time, #weather, #flight, #participation {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
