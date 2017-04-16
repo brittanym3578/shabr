@@ -5,12 +5,11 @@ h1 {
     font-weight: 700;
     font-size: 100px;
     text-align: center;
-    /*//background-color: #1d91f7;*/
-    /*background-color: #1d91f7;*/
+
 }
 
 h2 {
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
     font-size: 50px;
     /*background-color: #1d91f7;*/
 }
@@ -22,14 +21,20 @@ h3 {
     /*background-color: #1d91f7;*/
 }
 
-
 @media(min-width:768px) {
-    h1 {
-        font-size: 80px;
-    }
-    h2 {
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+
 }
 
 /* medium+ */
@@ -41,6 +46,9 @@ h3 {
     h2 {
         font-size: 60px;
     }
+    p {
+    font-size: 20px;
+  }
 }
 
 /* large+ */
@@ -52,6 +60,9 @@ h3 {
     h2 {
         font-size: 80px;
     }
+    p {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -111,3 +122,38 @@ background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1)
     text-align: center;
 }
  
+.carousel-inner .item img {
+  height: 500px;
+}
+.carousel-caption {
+  color: white;
+  top: 30%;
+}
+#title {
+  opacity: 1;
+  animation: fadeIn 6s;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  font-weight: bold;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+.carousel-inner .item img {
+  height: 900px;
+}
+
+.carousel-caption {
+  color: white;
+  top: 32%;
+  
+}
+.well {
+  background: linear-gradient(to bottom right, rgba(255, 204, 255,0.1), rgba(179, 217, 255,0.75), transparent), url("https://s-media-cache-ak0.pinimg.com/originals/9c/ca/ec/9ccaeca7ac5037f294e6fe6fdddc0f95.jpg") no-repeat center; 
+  background-size: cover;
+}
+#etext {
+  color: beige;
+  text-shadow: 3px 3px 4px lightblue;
+}
