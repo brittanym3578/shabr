@@ -7,6 +7,14 @@
     border-width: 0px;
     border-radius: 3px;
 }
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #fff0f0;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(189, 189, 189, 1);
     background-color: rgba(0, 0, 0, 1);
@@ -27,14 +35,7 @@
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #fff0f0;
 }
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #fff0f0;
-}
+
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #fff0f0;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #000000;
 }
