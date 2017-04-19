@@ -32,9 +32,6 @@
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 240, 240, 1);
 }
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #fff0f0;
-}
 
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #fff0f0;
