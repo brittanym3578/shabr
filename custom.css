@@ -64,18 +64,14 @@ background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1)
     color: white;
 }
 #time, #weather, #flight, #participation {
-    padding-left: 50px;
-    padding-right: 50px;
+    
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.75)), url(img/balloon-2.jpg) no-repeat center fixed;
     background-size: cover;
 }
  
 
-.carousel-caption {
-  color: white;
-  top: 30%;
-}
+
 #title {
   opacity: 1;
   animation: fadeIn 6s;
@@ -164,7 +160,7 @@ p {
     font-size: 15px;
   }
    #landing h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
 }
@@ -212,7 +208,7 @@ p {
   }
   #itext {
     height: 345px;
-    font-size: 15px;
+    font-size: 22px;
   }
    #landing h1 {
         font-size: 110px;
